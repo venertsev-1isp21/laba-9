@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+	<html lang='ru'>
+		<head>
+			<title lang='ru'>Венерцев 1ИСП-21</title>
+			<meta charset='UTF-8'>
+		</head>
+		
+		<style>
+			body{
+				color: #120418;
+				background-color: #849FB7;
+			}
+			#btnCalc{
+				color: #120418;
+				width: 76px;
+				margin-top: 10px;
+				margin-left: 10px;
+				border-radius: 5px;
+				border: 1px solid black;
+				background-color: #768CA4;
+			}
+			#divResult{
+				color: #120418;
+				background-color: #768CA4;
+				width: 200px;
+				margin-top: 10px;
+				margin-left: 10px;
+				border: 1px solid black;
+				border-radius: 5px;
+			}
+			#divResultB{
+				color: #120418;
+				background-color: #768CA4;
+				width: 200px;
+				margin-top: 10px;
+				margin-left: 10px;
+				border: 1px solid black;
+				border-radius: 5px;
+			}
+			#divResultB2{
+				color: #120418;
+				background-color: #768CA4;
+				width: 200px;
+				margin-top: 10px;
+				margin-left: 10px;
+				border: 1px solid black;
+				border-radius: 5px;
+			}
+			
+		</style>
+		
+		<body class='body'>
+				
+				<button id="btnCalc" onclick="calculate()">
+				  Выполнить
+				</button>
+				
+				<div id="divResult"> </div>
+				<div id="divResultB"> </div>
+				<div id="divResultB2"> </div>
+		</body>
+		<script>
+			function calculate(){
+				var n = Math.floor(Math.random() * 15);
+				var a = [];
+				var b = [];
+				
+				for (var i = 0; i < n + 1; i++) {
+					var num = Math.floor(Math.random() * 15);
+					a.push(num);
+				}
+				
+			    for (let i = 0; i < n + 1; i += 3) {
+			        b.push(a[i]);
+			    }
+			    
+				document.getElementById("divResult").innerHTML =  "Массив а: " + a.join(' - ');
+				document.getElementById("divResultB").innerHTML =  "Массив b: " + b.join(' - ');
+				document.getElementById("divResultB2").innerHTML =  "Размер b: " + b.length;
+			  }
+		</script>
+	</html>

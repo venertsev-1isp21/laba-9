@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-04-03T17:42:49.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6y_m58du7OD7lkJP80FA" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="JLULOAlkJ3aI0VZnD2LQ">
+    <mxGraphModel dx="874" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gBKuoCQjEU2EA3JGXyk2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gBKuoCQjEU2EA3JGXyk2-1" target="gBKuoCQjEU2EA3JGXyk2-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBKuoCQjEU2EA3JGXyk2-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=35;" parent="1" vertex="1">
+          <mxGeometry x="300" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1-c9vYNJco3WWKa6U2Z_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gBKuoCQjEU2EA3JGXyk2-3" target="FaUPefRK3cK26D1pfbpW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBKuoCQjEU2EA3JGXyk2-3" value="Присвоение:&lt;br&gt;list =&amp;nbsp;[3.5, 9.8, 2.3, 4.6, 7.2]&lt;br&gt;n = 5&lt;br&gt;sum = 0&lt;br&gt;int_parts = []" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="253.75" y="330" width="182.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FaUPefRK3cK26D1pfbpW-3" target="FaUPefRK3cK26D1pfbpW-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="550" />
+              <mxPoint x="240" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-3" value="Пока i&amp;lt;n, i + 1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FaUPefRK3cK26D1pfbpW-5" target="FaUPefRK3cK26D1pfbpW-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-5" value="int_part = окуглённый элемент из list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FaUPefRK3cK26D1pfbpW-7" target="FaUPefRK3cK26D1pfbpW-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="650" />
+              <mxPoint x="226" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-7" value="Добавить в&amp;nbsp;int_parts элемент&amp;nbsp;int_part" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FaUPefRK3cK26D1pfbpW-9" target="FaUPefRK3cK26D1pfbpW-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-9" value="Сложить к sum&amp;nbsp;int_part" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="166.25" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FaUPefRK3cK26D1pfbpW-11" target="FaUPefRK3cK26D1pfbpW-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="780" />
+              <mxPoint x="314" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-11" value="Конец цикла" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="354" y="710" width="117.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaUPefRK3cK26D1pfbpW-14" value="Вывод&amp;nbsp;int_parts и sum" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="253.75" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
